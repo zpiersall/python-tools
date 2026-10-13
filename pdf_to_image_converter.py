@@ -21,12 +21,6 @@ class PDFtoImageConverter:
         values=["JPG", "PNG"],
         state="readonly"    
         ).pack()
-
-        ttk.Button(
-            root,
-            text="Drop PDFs Here",
-            command=self.select_files
-        ).pack(pady=10)
         
 
         #convert button
